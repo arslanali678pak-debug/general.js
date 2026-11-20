@@ -1,0 +1,1 @@
+{"dependencies":{"axios":"^1.7.0"},"description":"Retrieve books by author, title and ISBN using Axios with promise callbacks and async/await","main":"general.js","name":"general-js-books-axios","scripts":{"start":"node general.js"},"version":"1.0.0"}
