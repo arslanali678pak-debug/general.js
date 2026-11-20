@@ -42,7 +42,7 @@ node general.js
 Or import the functions in your own code:
 
 ```js
-const { getAllBooksAsync, getBookByISBN } = require(./'general');
+const { getAllBooksAsync, getBookByISBN } = require('./general');
 
 getAllBooksAsync().then((books) => console.log(books));
 getBookByISBN('9780132350884').then((book) => console.log(book));
