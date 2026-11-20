@@ -1,7 +1,12 @@
 # general.js
 
-Retrieve all books and their details based on author, title, and ISBN,
-using Axios — with promise callbacks and with async/await.
+**Project name:** general-js-books-axios — Book Retrieval with Axios
+
+**Description:** Retrieve all books and their details based on author, title, and ISBN, using Axios — with promise callbacks and with async/await.
+
+**Main file:** `general.js`
+**Language:** JavaScript (Node.js)
+**Library:** Axios
 
 ## Functions
 
@@ -37,7 +42,7 @@ node general.js
 Or import the functions in your own code:
 
 ```js
-const { getAllBooksAsync, getBookByISBN } = require('./general');
+const { getAllBooksAsync, getBookByISBN } = require(./'general');
 
 getAllBooksAsync().then((books) => console.log(books));
 getBookByISBN('9780132350884').then((book) => console.log(book));
